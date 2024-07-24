@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ashraf-kabir/mern-ecommerce.git"
+    "url": "git+https://github.com/RushabhJ24/E-Com"
   },
   "keywords": [],
-  "author": "Ashraf Kabir",
-  "license": "MIT",
+  "author": "Rushabh Jain",
+  "license": "",
   "dependencies": {
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
