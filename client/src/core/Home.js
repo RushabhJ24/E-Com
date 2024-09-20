@@ -9,7 +9,7 @@ import Copyright from './Copyright';
 const Home = () => {
   const [productsBySell, setProductsBySell] = useState([]);
   const [productsByArrival, setProductsByArrival] = useState([]);
-  const [error, setError] = useState([]);
+  // const [error, setError] = useState([]);
 
   const loadProductsBySell = () => {
     getProducts('sold').then((data) => {

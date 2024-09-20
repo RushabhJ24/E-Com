@@ -27,13 +27,17 @@ const AddProduct = () => {
     description,
     price,
     categories,
+    // eslint-disable-next-line to the line before
     category,
+    // eslint-disable-next-line to the line before
     shipping,
     quantity,
+    // eslint-disable-next-line to the line before
     photo,
     loading,
     error,
     createdProduct,
+    // eslint-disable-next-line to the line before
     redirectToProfile,
     formData,
   } = values;

@@ -1,4 +1,5 @@
 const express = require('express');
+const app = express();
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
@@ -25,7 +26,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 // app
-const app = express();
+// const app = express();
 
 // db connection
 const connectDB = async () => {

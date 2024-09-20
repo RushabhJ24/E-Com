@@ -6,7 +6,7 @@ import Card from './Card';
 const Product = (props) => {
   const [product, setProduct] = useState({});
   const [relatedProduct, setRelatedProduct] = useState([]);
-  const [error, setError] = useState(false);
+  // const [error, setError] = useState(false);
 
   const loadSingleProduct = (productId) => {
     read(productId).then((data) => {
