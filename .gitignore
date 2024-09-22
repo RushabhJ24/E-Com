@@ -1,4 +1,4 @@
 node_modules/
 .env
+Products/
 package-lock.json
-.vercel
